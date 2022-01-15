@@ -1,22 +1,26 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
 .top-container {
   background-color: #E4F9F5;
-  border: 10px solid;
-  padding: 20px;
+  position: relative;
+  padding-top: 100px;
 }
 
-.middle-container {
-  background-color: red;
-  border: 20px solid;
-  margin-left: 260px;
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
 
-.bottom-container {
-  background-color: blue;
-  border: 10px solid;
-  margin-left: 500px;
-}
-
-div {
-  width: 200px;
-  height: 200px;
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
